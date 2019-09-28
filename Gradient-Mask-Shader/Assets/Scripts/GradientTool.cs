@@ -70,7 +70,7 @@ public class GradientTool : MonoBehaviour
         if (_renderer != null)
         {
             _rendererBounds = _renderer.bounds.size;
-            //_material = _renderer.sharedMaterial;
+            _material = _renderer.sharedMaterial;
         }
         else
             _gizmoPos = transform.position;
