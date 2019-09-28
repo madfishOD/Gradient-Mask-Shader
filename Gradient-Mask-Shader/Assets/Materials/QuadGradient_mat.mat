@@ -75,7 +75,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ProjectionRow0: {r: 0.84445906, g: 1.0202842, b: 0, a: 1.2886918}
-    - _ProjectionRow1: {r: -0.77036244, g: 0.63760626, b: 0, a: -1.8960916}
-    - _ProjectionRow2: {r: 0, g: 0, b: 1, a: 0.30273438}
+    - _ProjectionRow0: {r: 1.2593905, g: 0.827826, b: -0.06890571, a: 2.058445}
+    - _ProjectionRow1: {r: -0.54789025, g: 0.83601296, b: 0.029976992, a: -1.6797085}
+    - _ProjectionRow2: {r: 0.054631818, g: 0.000000016763806, b: 0.99850655, a: 0.40135422}
     - _ProjectionRow3: {r: 0, g: 0, b: 0, a: 1}
