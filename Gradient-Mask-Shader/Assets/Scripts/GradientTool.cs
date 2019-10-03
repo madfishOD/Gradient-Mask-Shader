@@ -107,7 +107,7 @@ public class GradientTool : MonoBehaviour
         //Set position of dummy right between gradient points
         float pointsDistance = Vector3.Distance(_endPt,_startPt);
         _projectionDummy.transform.position = _endPt;
-        _projectionDummy.transform.localScale = new Vector3(pointsDistance, 1.0f, 1.0f);
+        _projectionDummy.transform.localScale = new Vector3(pointsDistance, pointsDistance, pointsDistance);
         
         //Set X-axis look at start gradient point
         _projectionDummy.transform.LookAt(_startPt, Vector3.up);

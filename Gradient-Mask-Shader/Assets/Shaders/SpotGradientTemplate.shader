@@ -1,4 +1,4 @@
-﻿Shader "Unlit/GradientShader"
+﻿Shader "Gradient/SpotTemplate"
 {
     Properties
     {
@@ -43,8 +43,10 @@
 			fixed4 frag(v2f i) : SV_Target
 			{
 				fixed3 gradient = mul(i.gradientMatrix, float4(i.worldPos.xyz, 1.0));
-                return float4(gradient.xxx, 1.0);
-            }
+                //return length(gradient.z) + length(gradient.y);
+				return 1-dot(gradient.yz, gradient.yz);
+
+			}
             ENDCG
         }
     }

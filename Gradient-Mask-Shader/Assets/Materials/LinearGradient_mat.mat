@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: R_mat
-  m_Shader: {fileID: 10755, guid: 0000000000000000f000000000000000, type: 0}
+  m_Name: LinearGradient_mat
+  m_Shader: {fileID: 4800000, guid: f97ab5f087bfe6b43a0dd07b45edcd61, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -73,5 +73,9 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0, g: 0.551075, b: 1, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ProjectionRow0: {r: 1.9695702, g: 1.264778, b: 0.3845668, a: 2.85005}
+    - _ProjectionRow1: {r: -0.5233117, g: 0.84599316, b: -0.102178805, a: -1.6864545}
+    - _ProjectionRow2: {r: -0.1916354, g: 0.000000007450581, b: 0.9814662, a: -0.03278917}
+    - _ProjectionRow3: {r: 0, g: 0, b: 0, a: 1}

@@ -18,9 +18,11 @@ public class GradientToolEditor : Editor
         Handles.color = Color.white;
         Handles.RectangleHandleCap(0, gradientTool.EndPt, Camera.current.transform.rotation, HandleUtility.GetHandleSize(gradientTool.StartPt) * size * 1.2f, EventType.Repaint);
         Vector3 newStartPtPos = Handles.FreeMoveHandle(gradientTool.StartPt, Quaternion.identity, HandleUtility.GetHandleSize(gradientTool.StartPt) * size, Vector3.zero, Handles.DotHandleCap);
+        newStartPtPos = Handles.PositionHandle(gradientTool.StartPt, Quaternion.identity);
         Handles.color = Color.black;
         Handles.RectangleHandleCap(0, gradientTool.StartPt, Camera.current.transform.rotation, HandleUtility.GetHandleSize(gradientTool.StartPt) * size * 1.2f, EventType.Repaint);
         Vector3 newEndPtPos = Handles.FreeMoveHandle(gradientTool.EndPt, Quaternion.identity, HandleUtility.GetHandleSize(gradientTool.StartPt) * size, Vector3.zero, Handles.DotHandleCap);
+        newEndPtPos = Handles.PositionHandle(gradientTool.EndPt, Quaternion.identity);
 
         if (EditorGUI.EndChangeCheck())
         {
@@ -40,6 +42,9 @@ public class GradientToolEditor : Editor
         {
             gradientTool.Reset();
         }
+
+        // Show default inspector property editor
+        DrawDefaultInspector();
     }
 
 }

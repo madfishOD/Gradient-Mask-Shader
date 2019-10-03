@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: QuadGradient_mat
-  m_Shader: {fileID: 4800000, guid: f97ab5f087bfe6b43a0dd07b45edcd61, type: 3}
+  m_Name: SpotGradient_mat
+  m_Shader: {fileID: 4800000, guid: 3a3a7e921deb09e498ccfd0749d2a84a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -75,7 +75,7 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ProjectionRow0: {r: 1.2593905, g: 0.827826, b: -0.06890571, a: 2.058445}
-    - _ProjectionRow1: {r: -0.54789025, g: 0.83601296, b: 0.029976992, a: -1.6797085}
-    - _ProjectionRow2: {r: 0.054631818, g: 0.000000016763806, b: 0.99850655, a: 0.40135422}
+    - _ProjectionRow0: {r: -0.000000034354265, g: 0, b: 0.2881845, a: 1.0000002}
+    - _ProjectionRow1: {r: 0, g: 0.28818446, b: 0, a: 0}
+    - _ProjectionRow2: {r: -0.2881845, g: 0, b: -0.000000034354265, a: -0.0000001192093}
     - _ProjectionRow3: {r: 0, g: 0, b: 0, a: 1}
